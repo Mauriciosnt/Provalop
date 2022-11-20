@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <style rel="stylesheet">
+    body {
+      background-image: url('menu.png');
+      background-repeat: no-repeat;
+      background-position: 0px 0px; 
+    }
+  </style>
+
+  <body>
+
+    
+    <main>  
+      <button class="btn" onclick="window.location.href = 'regras.html'"></button>
+      <button class="btn-creditos" onclick="window.location.href = 'creditos.html'"></button>
+      <button class="btn-jogar" onclick="window.location.href = 'jogar.html'"></button>
+    </main>
+  </body>
+</html>
+
+<style> 
+     .btn {
+        cursor: pointer;
+            border: 1px solid #d82202;
+            background-color: transparent;
+            height: 50px;
+            width: 190px;
+            color: #3498db;
+            font-size: 1.5em;
+            box-shadow: 0 6px 6px rgba(238, 3, 3, 0.6);
+            position: absolute;
+            top: 350px;
+            
+    }      
+    .btn-creditos {
+        cursor: pointer;
+            border: 1px solid #f80f0f;
+            background-color: transparent;
+            height:50px;
+            width: 200px;
+            color: #3498db;
+            font-size: 1.5em;
+            box-shadow: 0 6px 6px rgba(253, 3, 3, 0.6);
+            position: absolute;
+            top: 350px;
+            left: 430px;
+    }
+    .btn-jogar {
+        cursor: pointer;
+            border: 0px solid #f1f2f3;
+            background-color: transparent;
+            border-radius: 50%;
+            height: 50px;
+            width: 35px;
+            color: #3498db;
+            font-size: 1.5em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            position: absolute;
+            top: 240px;
+            left: 300px;
+    } 
+  
+</style>
